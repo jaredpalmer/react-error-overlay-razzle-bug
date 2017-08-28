@@ -32,7 +32,7 @@ server
         ${assets.client.css
           ? `<link rel="stylesheet" href="${assets.client.css}">`
           : ''}
-        <script src="${assets.client.js}" defer></script>
+        <script src="${assets.client.js}" crossorigin defer></script>
     </head>
     <body>
         <div id="root">${markup}</div>
