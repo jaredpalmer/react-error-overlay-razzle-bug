@@ -3,7 +3,7 @@
 `react-error-overlay` does not display despite a runtime error.
 
 ```
-git clone ...
+git clone git@github.com:jaredpalmer/react-error-overlay-razzle-bug.git
 cd razzle-error
 yarn start
 ```
